@@ -37,7 +37,7 @@ public class HelloTest {
         //System.setOut(null);
     }
     
-    private final ByteArrayOutputStream outStream =
+    //private final ByteArrayOutputStream outStream =
       //new ByteArrayOutputStream();
 
     // TODO add test methods here.
