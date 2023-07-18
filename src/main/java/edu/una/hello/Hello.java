@@ -11,6 +11,6 @@ package edu.una.hello;
 public class Hello {
 
     public void sayHello() {
-        System.out.print(Hello World!");
+        System.out.print("Hello World!");
     }
 }
