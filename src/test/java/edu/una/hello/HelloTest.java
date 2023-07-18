@@ -29,16 +29,16 @@ public class HelloTest {
 
     @BeforeEach
     public void setUp() {
-        System.setOut(new PrintStream(outStream));
+        //System.setOut(new PrintStream(outStream));
     }
 
     @AfterEach
     public void tearDown() {
-        System.setOut(null);
+        //System.setOut(null);
     }
     
     private final ByteArrayOutputStream outStream =
-      new ByteArrayOutputStream();
+      //new ByteArrayOutputStream();
 
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
@@ -47,10 +47,10 @@ public class HelloTest {
     // public void hello() {}
     @Test
     public void mytestmethod() {
-        //assertTrue(2 == 3);
+        assertTrue(2 == 3);
 
-        Hello h = new Hello();
-        h.sayHello();
-        assertEquals("Hello World!", outStream.toString());
+        // Hello h = new Hello();
+        // h.sayHello();
+        // assertEquals("Hello World!", outStream.toString());
     }
 }
