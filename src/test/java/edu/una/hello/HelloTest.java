@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
+package edu.una.hello;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
@@ -54,6 +51,6 @@ public class HelloTest {
 
         Hello h = new Hello();
         h.sayHello();
-        assertEquals("Hello World", outStream.toString());
+        assertEquals("Hello World!", outStream.toString());
     }
 }
