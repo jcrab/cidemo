@@ -13,7 +13,7 @@ jobs have steps
 2. git clone https://github.com/jcrab/cidemo
 
 3. create .github/workflows/learn-github-actions.yml
-
+'''
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
@@ -27,7 +27,7 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
-
+'''
 -- Part II: Building and testing Java with Maven --
 
 1. create .github/workflows/build-test-java-mvn.yml
